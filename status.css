@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    max-width: 400px;
+    border-radius: 20px;
+}
+.card{
+    border-radius: 20px;
+    height: 600px;
+    background-image: linear-gradient(to right, #0084ff, #00f2ff);
+    border: none;
+    overflow: hidden;
+    box-shadow: 0 5px 8px #414141;
+    z-index: 0;
+    box-sizing: border-box;
+}
+.circle{
+    position: absolute;
+    bottom: -230px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    clip-path: circle(50%);
+    height: 700px;
+    width: 700px;
+    z-index: -1;
+    overflow: hidden;
+}
+.myHed{
+    margin-top: 30px;
+    font-size: 32px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #0084ff, #00f2ff);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.yourtoken{
+    background-image: linear-gradient(to right, #0084ff, #00f2ff);
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.currenttoken{
+    background-image: linear-gradient(to right, #0084ff, #00f2ff);
+    color: #fff;
+    border-radius: 10px;
+}
+.estimated-time{
+    background-image: linear-gradient(to right, #0084ff, #00f2ff);
+    color: #fff;
+    border-radius: 10px;
+}
+@media (max-width: 768px){
+    .container{
+        max-width: 100%;
+    }
+}

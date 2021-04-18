@@ -1,0 +1,132 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header h1{
+    padding-top: 4px;
+    margin-bottom: 4px;
+}
+
+#bg{
+    color: #fff;
+    background-image: linear-gradient(to right, #082a4be0, #00f2ff);
+    font-family: 'Comic Neue', cursive;
+}
+#login{
+    margin-top: 2px;
+    margin-bottom: 2px
+    
+}
+.admin{
+    background-image: linear-gradient(to right, #0084ff, #00f2ff);
+
+}
+.header{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.img-slider{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    
+}
+#slider{
+    border: 3px solid #fff;
+    
+}
+.img-slider img{
+    margin-top: 4px;
+}
+.navbar-nav li{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'audiowide', cursive;
+    
+}
+
+.navbar{
+    margin-bottom: 10px;
+}
+.heading{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-image: linear-gradient(to right, #042646, #00f2ff);
+    background-position: center;
+    background-size: auto;
+    height: auto;
+    background-repeat: no-repeat;
+}
+.slider-text h2{
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'audiowide', cursive;
+}
+.slider-text h1{
+    color: #fff;
+    font-family: 'audiowide', cursive;
+}
+.navbar{
+    background-image: linear-gradient(to right, #082a4be0, #00f2ff);
+    border-radius: 100px;
+}
+
+/*about area*/
+.about-img img{
+    width: 75%;
+    
+}
+.item-text{
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: larger;
+    text-align: justify;
+    
+}
+.about-img{
+    padding-right: 15px;
+}
+.item-text h4{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.item-text h4{
+    padding-top: 15px;
+}
+/*footer area*/
+
+.footer{
+    background-image: linear-gradient(to right, #082a4be0, #00f2ff);
+    margin-bottom: 0;
+    }
+.section-header{
+    padding-bottom: 30px;
+}
+
+.section-padding{
+    padding: 100px 0;
+}
+.gallary{
+    padding-top: 0%;
+}
+.contact-area{
+    padding-top: 0%;
+}
+#footer{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}

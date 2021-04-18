@@ -1,0 +1,31 @@
+body{
+    background-image: url(img1.jpg);
+}
+.admin{
+    background-image: linear-gradient(to right, #0084ff, #00f2ff);
+
+}
+#login{
+    margin-top: 2px;
+    margin-bottom: 2px
+    
+}
+#adminstatus{
+    margin-top: 15%;
+}
+.card{
+    box-sizing: border-box;
+    border: 1px solid red;
+    border-radius: 50px;
+    
+}
+#admin h3{
+    color: #ffff;
+    font-family: 'Comic Neue', cursive;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+}
+.card-link{
+    align-content: center;
+}
